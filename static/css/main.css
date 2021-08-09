@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+body{
+    margin: 0;
+    color:red;
+    background-image: url("../news.jpg");
+    font-size: 18px;
+    font-family: „Raleway”, sans-serif;
+    text-align:left;
+
+}
+
+header{
+    height: 70px;
+    background: linear-gradient(to right, rgb(45 119 109), rgb(42 39 95));
+    position: fixed;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 24px;
+}
+.event{
+    width: 450px;
+    height: 350px;
+    align:center;
+    padding: 0px 15px 15px 15px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.514), rgba(255, 255, 255, 0.514)));
+    border-radius: 5px;
+    border: 1px solid rgb(42 39 95);
+    overflow-y: scroll;
+
+}

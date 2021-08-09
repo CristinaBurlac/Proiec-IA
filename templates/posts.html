@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Toate stirile
+{% endblock %}
+
+{% block body%}
+<div class="container mt-5">
+    <h1>Toate posturile pe syte</h1>
+    {% for el in articles %}
+    <div class="alert alert-info">
+        <p>{{el.text}}</p>
+        <p><b>Data:{{el.date.date()}}</b></p>
+        <button class="btn btn-warning">Detalii</button>
+    </div>
+    {% endfor %}
+</div>
+{% endblock%}
